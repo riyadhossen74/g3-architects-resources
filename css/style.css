@@ -227,6 +227,54 @@ ul li a{
 .Project_section img{
    padding-top: 29px;
 }
+ /* sponpsar_img section style  */
+ .sponpsar_img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 90px;
+ }
+ .sponpsar_img img {
+     filter: grayscale(100%); 
+   
+ }
+ .sponpsar_titel{
+    max-width: 542px;
+    margin: 0 auto;
+    
+ }
+ .sponpsar_titel h4{
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+ }
+ .sponpsar_titel p{
+    color: rgb(114, 114, 114);
+    text-align: center;
+ }
+ footer{
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    margin: 0 auto;
+    margin-top: 25px;
+ }
+ footer p{
+    color: rgb(66, 66, 66);
+    text-align: center;
+     margin-top: 50px;
+    
+    
+ }
+ footer div{
+    display: flex;
+   
+    justify-content: center;
+   
+ }
+
 
 
 /* mobile device style  */
@@ -274,6 +322,11 @@ ul li a{
     .some_facts{
         margin-top: 80px;
         text-align: center;
+    }
+    .sponpsar_img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-left: 100px;
     }
 }
 
