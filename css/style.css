@@ -257,11 +257,11 @@ ul li a{
     max-width: 1440px;
     height: 100px;
     border-radius: 8px;
-    background: rgb(255, 244, 231);
+    background-color: rgb(255, 244, 231);
     margin: 0 auto;
     margin-top: 25px;
  }
- footer p{
+ footer div p{
     color: rgb(66, 66, 66);
     text-align: center;
      margin-top: 50px;
