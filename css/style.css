@@ -188,6 +188,45 @@ ul li a{
     font-size: 1.5rem;
     font-weight: 500;
 }
+/* some fact section style  */
+.awards_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.some_facts h5{
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+.some_facts p{
+    color: rgb(114, 114, 114);
+       margin-bottom: 94px;
+       max-width: 542px;
+}
+.Project_section{
+    max-width: 241px;
+    border: 1px solid rgb(255, 144, 14); ;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+.Project_section  h3 {
+    color: rgb(66, 66, 66);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.Project_section p{
+    color: rgb(114, 114, 114);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: -33px;
+ 
+}
+.Project_section img{
+   padding-top: 29px;
+}
 
 
 /* mobile device style  */
@@ -218,14 +257,23 @@ ul li a{
         padding: 5px;
     }
     .architect_img{
-       margin-top: -5px;
+       margin-top: -132px;
     }
     .features_titel{
         margin-top: 50px;
     }
    .img_btn{
-        top: 0px;
+        top: 20px;
         left: 50px;
+    }
+    .awards_section{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+       margin-left: 55px;
+    }
+    .some_facts{
+        margin-top: 80px;
+        text-align: center;
     }
 }
 
@@ -245,6 +293,13 @@ ul li a{
     }
     .bannar_img img{
         width: 100%;
+    }
+    .love_enjoy{
+        flex-direction: column;
+       
+    }
+    .architect_img{
+       margin-top: -132px;
     }
     
 }
